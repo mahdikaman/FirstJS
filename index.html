@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>GOATS</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">The players</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Motivation</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          We <span class="highlight">are </span>going<br/>to introduce the best players of all times in basketball
+        </h1>
+        <h4>A short introduction in to the basketball world</h4>
+        <button class="btn--text btn--scroll-to">The GOATS &DownArrow;</button>
+       
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="features">
+        <img
+          src="kobe2.jpg"
+          alt="kobe the goat"
+          class="features__img "
+        />
+        <div class="features__feature">
+          <h5 id="kobe" class="features__header"></h5>
+          <p> Team : <u id="kteam" ></u></p>
+          <p> Division : <u id="kdivision" ></u></p>
+          <p> City : <u id="kcity" ></u></p>
+          <p>FOR MORE INFORMATION <a href="information.html">CLICK HERE</a></p>
+        </div>
+
+        <div class="features__feature">
+          <h5 id="mich" class="features__header"></h5>
+          <p> Team : <u id="michteam" ></u></p>
+          <p> Division : <u id="michdivision" ></u></p>
+          <p> City : <u id="michcity" ></u></p>
+          <p>FOR MORE INFORMATION <a href="information.html">CLICK HERE</a></p>
+        </div>
+        <img
+        src="michael2.jpg"
+          alt="michael the goat"
+          class="features__img "
+        />
+
+        <img
+        src="lebron 2.jpg"
+          alt="lebron the goat"
+          class="features__img "
+        />
+        <div class="features__feature">
+          <h5 id="lebron" class="features__header"></h5>
+          <p> Team : <u id="lebronteam" ></u></p>
+          <p> Division : <u id="lebrondivision" ></u></p>
+          <p> City : <u id="lebroncity" ></u></p>
+          <p>FOR MORE INFORMATION <a href="information.html">CLICK HERE</a></p>
+        </div>
+      
+    </section>
+
+    <
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Motivation</h2>
+        <h3 class="section__header" >
+          You can be a Legend in the history if you want to!
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container"></div>
+        <div
+          class="
+            operations__content
+            operations__content--1
+            operations__content--active
+          "
+        >
+          <div class="operations__icon operations__icon--1">
+        
+          </div>
+          <h5 class="operations__header">
+            Be the one you want to be! Have Faith!
+          </h5>
+          <p>
+            “I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times, I’ve been trusted to take the game-winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed.”
+            Michael Jordan
+          </p>
+        </div>
+    </section>
+   
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Click the button below and write down the first name and the last name of the player and also your email address<br> to give a vote!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Vote for your best player !</button>
+    </section>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Vote! &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
